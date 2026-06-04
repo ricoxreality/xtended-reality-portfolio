@@ -16,7 +16,7 @@ const E = [0.76, 0, 0.24, 1] as const;
 
 // ── Project data ─────────────────────────────────────────────────────────────
 const PROJECT = {
-  title: "YSL meets Yakuza",
+  title: "IKI",
   client: "Yves Saint Laurent",
   category: "Brand Film",
   year: "2025",
@@ -26,7 +26,7 @@ const PROJECT = {
   shortDescription:
     "An experimental fashion film replacing runway models with digital avatars. We fused YSL's structured silhouettes with Yakuza's cinematic aggression, creating a unique aesthetic that bridges the gap between high fashion and gaming culture.",
   tags: ["Brand Film", "Experimental", "Fashion", "Yakuza"],
-  thumbnailUrl: "/images/ysl-yakuza.png",
+  thumbnailUrl: "/projects/yakuza/iki-cover.jpg",
   gifSrc: "/projects/yakuza/yakuza.gif",
   fullVideoSrc: "/projects/yakuza/yakuza-web.mp4",
   photos: [
