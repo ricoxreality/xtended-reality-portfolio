@@ -8,8 +8,8 @@ import { usePathname } from "next/navigation";
 const navItems = [
   { label: "WORK", href: "/" },
   { label: "PORTFOLIO", href: "/portfolio" },
-  { label: "ABOUT", href: "#about" },
-  { label: "CONTACT", href: "#contact" },
+  { label: "ABOUT", href: "/about" },
+  { label: "CONTACT", href: "/#contact" },
 ];
 
 const E = [0.76, 0, 0.24, 1] as const;
@@ -201,7 +201,7 @@ export default function HamburgerMenu() {
                 {/* Social links */}
                 <div className="flex items-center gap-6">
                   {[
-                    { label: "Instagram", href: "https://instagram.com" },
+                    { label: "Instagram", href: "https://www.instagram.com/rico.xr_/" },
                     { label: "Vimeo", href: "https://vimeo.com" },
                     { label: "LinkedIn", href: "https://linkedin.com" },
                   ].map((social) => (
